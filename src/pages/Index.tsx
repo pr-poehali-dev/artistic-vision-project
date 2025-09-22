@@ -25,10 +25,24 @@ const artworks = [
     style: "Fantasy",
     image: "/img/1f52bf0e-a743-415e-b3cc-3397bf5d17b1.jpg",
     description: "Мистический лес с древними руинами"
+  },
+  {
+    id: 4,
+    title: "Cute Friends",
+    style: "Sanrio",
+    image: "/img/f4b8f023-d782-4ed0-abec-84cd6174d342.jpg",
+    description: "Милые персонажи в стиле Санрио с пастельными цветами"
+  },
+  {
+    id: 5,
+    title: "Dream World",
+    style: "Sanrio",
+    image: "/img/d7ec82f9-f867-4c8d-b127-76f3d9b15610.jpg",
+    description: "Зайчики в облаках в стиле My Melody и Kuromi"
   }
 ];
 
-const styles = ["Все", "Kawaii", "Cyberpunk", "Fantasy", "Digital Art", "Concept Art"];
+const styles = ["Все", "Kawaii", "Sanrio", "Cyberpunk", "Fantasy", "Digital Art", "Concept Art"];
 
 function Index() {
   const [activeSection, setActiveSection] = useState('home');
